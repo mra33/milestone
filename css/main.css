@@ -1,0 +1,289 @@
+/***** BASE STYLES *****/
+
+
+
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: #08A6A6;
+}
+
+
+p {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+	
+
+
+#about {
+	height: 650px;
+	margin-bottom: -20px;
+}
+
+#contact {
+	height: 400px;
+	margin-top: none;
+}
+
+/******GRID******/
+
+
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+	margin-top: 0px;
+
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+
+	
+}
+
+/****** HEADER ******/
+
+
+#header {
+	margin-top: -50px;
+	height: 800px;
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#header nav {
+	float: right;
+}
+
+#header nav ul li {
+	display: inline;
+	font-family: 'Abril Fatface', cursive;
+	border: none;
+	
+}
+
+#header nav ul li a {
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 16px;
+	color: #F272A1;
+}
+
+
+#header h1 {
+	width: 400px;
+	font-size: 80px;
+	padding-top: 30px;
+}
+
+#header h2 {
+	width: 800px;
+	color: #F272A1;
+	font-size: 55px;
+	padding-left: 0px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: -5px;
+}
+
+
+/******WORK******/
+
+#work {
+	height: 1450px;
+	
+}
+
+
+#work h2 {
+	text-align:center;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+
+
+
+#work h3 {
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#work p {
+	font-size: 33px;
+}
+
+
+
+
+/*******ABOUT******/
+	
+#about {
+	background-color:#08A6A6;
+}
+
+#about h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	padding: 60px 0px 55px 0px;
+	text-align: center;
+
+}
+
+#about p {
+	font-size: 30px;
+}
+
+#about p span {
+	color: white;
+}
+
+
+/******CONTACT******/
+
+#contact {
+	background-color: #F21DB9;
+	text-align: center;
+}
+
+#contact .full-width {
+	border: 1px solid #F272A1;
+}
+
+#contact h3 {
+	padding-top: 40px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+	
+}
+
+#contact p {
+	font-size: 20px;
+}
+
+#contact ul {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 0px;
+}
+
+#contact ul li {
+	display: inline;
+}
+
+#contact ul li a img{
+	padding: 20px 40px 0px 10px;
+	
+}
+
+#contact h4 {
+	font-size: 12px;
+	color: #F272A1;
+}
+
+/******REEL******/
+
+.reel {
+	width: 600px;
+	float: left;
+	padding-left: 100px;
+	
+}
+
+#reel {
+	height: 400px;
+	
+}
+
+#reel ul {
+	list-style-type: none;
+}
+
+#reel h3 {
+	font-size:30px;
+}
+
+/******SECOND PAGE PHYS******/
+
+.training {
+	width: 400px;
+	float: right;
+	padding: 20px 20px 20px 30px;
+	border: 10px #F21DB9 solid;
+	margin: 80px 100px 0px 0px;
+}
+
+.training h3 { 
+	font-size: 30px;
+}
+
+.training ul {
+	margin: none;
+	padding: none;
+}
+
+.training ul li {
+	font-family: 'Oswald';
+	font-size: 21px;
+}
+
+
+
+/******RESUME******/
+
+#resume {
+	height: 2000px;
+	margin-top: 500px;
+}
+
+#resume .third-width {
+	background-color: #F272A1;
+	margin-bottom: 15px;
+}
+
+#resume ul {
+	list-style-type: none;
+}
+
+#resume ul li {
+	font-family: 'Oswald';
+	font-size: 22px;
+}
+
+
+#resume h3 {
+	font-size: 30px;
+}
+
+#resume h4 {
+	color: #F21DB9;
+}
+
+
+
+/*****RESUME&REEL FOOTER******/
+
+#footer {
+	height: 50px;
+	font-size: 12px;
+	color: #F272A1;
+	text-align: center;
+}
